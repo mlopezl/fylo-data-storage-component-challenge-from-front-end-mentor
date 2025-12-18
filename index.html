@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  
+</head>
+<body>
+  <div class="container">
+    <img src="./images/bg-desktop.png" alt="background pattern desktop" class="background__pattern">
+    <img src="./images/bg-mobile.png" alt="background pattern mobile" class="background__pattern--mobile">
+    <article class="card">
+      <img src="./images/logo.svg" alt="Fylo logo" class="card__logo">
+      <section class="card__buttons">
+        <button>
+          <img src="./images/icon-document.svg" alt="Document icon">
+        </button>
+        <button>
+          <img src="./images/icon-folder.svg" alt="Folder icon">
+        </button>
+        <button>
+          <img src="./images/icon-upload.svg" alt="Upload icon">
+        </button>
+      </section>
+    </article>
+    <article class="memory-info">
+      <p class="memory__description">
+        You've used <strong>815 GB</strong> of your storage
+      </p>
+      <div class="memory__bar">
+        <progress type="range" min="0" max="1000" value="815"></progress>
+        <div class="decorative__ball"></div>
+      </div>
+      <div class="memory__size">
+        <span>0 GB</span>
+        <span>1000 GB</span>
+      </div>
+      <div class="memory__left">
+        <strong>185</strong> GB LEFT
+      </div>
+      <div class="triangle"></div>
+    </article>
+  </div>
+  
+</body>
+</html>
